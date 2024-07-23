@@ -28,6 +28,7 @@
     display: none;
     position: absolute;
     top: 100%;
+    width: 14.8rem;
 }
 
 /* esse acento ~ é como se fosse uma condicional */
@@ -46,4 +47,9 @@
 
 .lista-menu__link{
     text-decoration: none;
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
 }
