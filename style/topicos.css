@@ -2,6 +2,7 @@
     background: var(--azul-degrade);
     text-align: center;
     font-family: var(--fonte-principal);
+    padding: 1rem 0;
 }
 
 .topico__titulo{
@@ -9,6 +10,7 @@
     color: var(--branco);
     font-size: 16px;
     font-weight: 300;
+    margin-bottom: 1rem;
 }
 
 .topicos__lista{
