@@ -1,0 +1,31 @@
+.topicos{
+    background: var(--azul-degrade);
+    text-align: center;
+    font-family: var(--fonte-principal);
+}
+
+.topico__titulo{
+    text-transform: uppercase;
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.topicos__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topicos__item{
+    margin: 2rem 0.5rem;
+}
+
+.topico__link{
+    text-decoration: none;
+    color: var(--branco);
+    background-color: var(--laranja);
+    padding: 1rem;
+    font-size: 14px;
+    font-weight: 700;
+}
