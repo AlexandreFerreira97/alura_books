@@ -13,6 +13,36 @@ hr{
     font-weight: 400;
 }
 
+.lista__rodape{
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
+    .rodape{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .rodape__titulo{
+        font-size: 24px;
+    }
+
+    .lista__rodape{
+        display: block;
+        font-size: 14px;
+        color: var(--cinza-claro);
+    }
     
+    .lista__rodape-item{
+        display: flex;
+        align-items: center;
+        margin: 0.6rem 0;
+    }
+
+    .lista__rodape-link{
+        text-decoration: none;
+        color: var(--cinza);
+        margin-left: 0.6rem;
+    }
+
 }
