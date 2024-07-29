@@ -68,6 +68,11 @@
     display: none;
 }
 
+.opcoes{
+    display: none;
+}
+
+
 /* aqui é o media query, que faz telas para diferentes tamanhos de telas */
 @media screen and (min-width: 1024px) {
     .container__titulo, .container__titulo-negrito{
@@ -81,5 +86,25 @@
     }
     .container__titulo-negrito{
         font-weight: 700;
+    }
+
+    .opcoes{
+        display: flex;
+    }
+    .opcoes__item{
+        padding: 0 1rem;
+        text-transform: uppercase;
+    }
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabecalho__menu{
+        display: none;
+    }
+
+    .container__imagem-transparente{
+        display: none;
     }
 }
