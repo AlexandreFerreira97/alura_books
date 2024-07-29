@@ -40,3 +40,7 @@
     background: url("../imgs/Email.svg") no-repeat;
     background-position: 0.8rem;
 }
+
+@media screen and (min-width: 1024px) {
+    
+}
